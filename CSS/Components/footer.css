@@ -1,0 +1,33 @@
+/* STYLE Menu START*/
+
+.break {
+    background-color: #F2EFE5;
+    height: 40px;
+    margin: 0;
+}
+
+.break p {
+    margin: 0;
+}
+
+.footer {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    line-height: normal;
+}
+
+.footer h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer h4 {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.footer p {
+    margin: 5px 0;
+}

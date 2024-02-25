@@ -1,0 +1,112 @@
+
+/* STYLE Menu START*/
+
+.menu {
+    background-color: #F2EFE5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    height: 40px;
+    border-bottom: 0.5px black solid;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.list-inline-menu li {
+    display: inline;
+    padding: 0 10px;
+    margin: 0;
+    text-align: center;
+    font-family: Josefin Slab;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.list-inline-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-inline-menu-burger {
+    display: none;
+}
+
+/* STYLE Menu END*/
+
+
+
+
+
+
+
+/* STYLE Social Media START*/
+
+.list-inline-social-media {
+    text-align: right;
+    padding: auto auto;
+    margin: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.list-inline-social-media li{
+    display: inline;
+    list-style: none;
+    font-size: 50px;
+}
+
+.list-inline-social-media li a{
+    text-decoration: none;
+}
+
+.logo-social-media {
+    width: 30px;
+    height: auto;
+    margin-right: 0px;
+    padding: 0px 7px;
+}
+
+/* STYLE Social Media END*/
+
+
+
+
+
+
+
+/* STYLE Follow Us! START */
+
+.list-inline-social-media h3 {
+    font-size: 20px;
+    font-family: "Dancing Script", cursive;
+    text-align: right;
+    padding: 10px;
+    margin: 5px; 
+}
+
+/* STYLE Follow Us! END */
+
+
+
+
+
+
+
+/* STYLE RESPONSIVE START */
+@media screen and (max-width: 800px) {
+    .list-inline-menu {
+        display: none;
+    }
+
+    .list-inline-menu-burger {
+        display: block;
+    }
+}
+
+/* STYLE RESPONSIVE END */

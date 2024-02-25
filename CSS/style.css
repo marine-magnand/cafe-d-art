@@ -1,0 +1,25 @@
+/* **********************************************************
+            CSS Files
+********************************************************** */
+@import url(Components/header.css);
+@import url(Components/menu.css);
+@import url(Components/banner.css);
+@import url(Components/about_us.css);
+@import url(Components/formulas.css);
+@import url(Components/schedule.css);
+@import url(Components/footer.css);
+
+/* ***************************************************************
+        Colors and fonts
+**************************************************************** */
+
+
+h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+body {
+    margin: 0;
+}

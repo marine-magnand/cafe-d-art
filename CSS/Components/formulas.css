@@ -1,0 +1,161 @@
+.formulas{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.formulas > div {
+    flex: 1;
+    margin: 30px 10px;
+}
+
+
+
+/* STYLE Title START */
+
+#our-formulas {
+    text-align: center;
+    font-size:  60px;
+    font-family: Josefin Slab;
+    color: #5E2F18;
+    padding-top:40px;
+}
+
+/* STYLE Title END */
+
+
+
+
+/* STYLE Formulas Cards START */
+
+.formulas-style {
+    border: 1px solid #AE582D;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* STYLE Formulas Cards END */
+
+
+
+
+/* STYLE Cards Backgrounds START */
+
+#art-brunch {
+    background-image: url(../../images/artbrunch.jpeg);
+}
+
+#coff-imagine {
+    background-image: url(../../images/coff-imagine.jpeg);
+}
+
+#cre-apero {
+    background-image: url(../../images/cre-apero.jpg);
+}
+
+/* STYLE Cards Backgrounds END */
+
+
+
+
+
+/* STYLE Brown Boxes START */
+
+.brown-box {
+    background-color: #AE582D;
+    margin-top: 98px;
+    margin-left: 120px;
+    padding: 17px 70px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.brown-box h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+
+}
+
+.brown-box h3 {
+    color: white;
+    font-family: "Dancing Script", cursive;
+}
+
+
+
+/* STYLE Brown Boxes END */
+
+
+.button-book {
+    padding: 10px 25px;
+    background-color: #AE582D;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 30% 35%;
+    border-radius: 90px;
+}
+
+.button-book a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.button-book:hover{
+    background-color: rgba(174, 88, 45, 0.7);
+}
+
+
+
+/* RESPONSIVE DESIGN START */
+
+@media (max-width: 768px) {
+    .formulas {
+        flex-direction: column; 
+        align-items: center; 
+        margin-left: 0; 
+        margin-right: 0; 
+    }
+
+    .formulas > div {
+        width: 80%; 
+        margin: 20px auto; 
+    }
+
+    #our-formulas {
+        font-size: 40px; 
+    }
+}
+
+
+@media (max-width: 992px) {
+    .formulas > div {
+        width: 45%; 
+    }
+
+    #our-formulas {
+        font-size: 50px; 
+    }
+
+    .brown-box {
+        margin-left: 20px; 
+        padding: 17px 40px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .formulas > div {
+        width: 40%; 
+    }
+
+    #our-formulas {
+        font-size: 55px; 
+    }
+}
+
+/* RESPONSIVE DESIGN END */

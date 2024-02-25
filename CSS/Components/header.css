@@ -1,0 +1,20 @@
+.header {
+    background-color: rgb(255, 255, 255);
+    height: 125px;
+    flex: 15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #FAFBFD;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#logo{
+    width: 110px;
+    height: auto;
+}
